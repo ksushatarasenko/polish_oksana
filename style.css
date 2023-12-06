@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: darkkhaki;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+/* ========== HEADER =========== */
+.header{
+    max-width: 70%;
+    margin: 0 auto 5%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.header ul{
+    display: flex;
+    gap: 10%;
+    
+}
+.header li{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+.header li>a{
+    text-decoration: none;
+}
+
+
+/* ====================== */
+.lesson{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+audio{
+    margin-left: 35%;
+}
+/* ====== BTN ======== */
+#scrollToTopButton{
+    position: absolute;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(246, 215, 168);
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+#scrollToTopButton:hover{
+    transform: scale(0.9);
+    background-color: rgb(211, 173, 115);
+}
