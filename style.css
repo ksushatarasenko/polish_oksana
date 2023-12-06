@@ -9,6 +9,24 @@
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    
+}
+.list{
+    max-width: 60%;
+    margin:0 auto;
+    height: 100vh;
+}
+.list ul>li{
+    font-size: 28px;
+    list-style-type: none;   
+    margin-top: 10px; 
+}
+.list ul>li>a{
+    text-decoration: none;
+    
+}
+.list ul>li>a:hover{
+    transform: scale(0.9);
 }
 /* ========== HEADER =========== */
 .header{
@@ -65,4 +83,9 @@ audio{
 #scrollToTopButton:hover{
     transform: scale(0.9);
     background-color: rgb(211, 173, 115);
+}
+/* ====== TEXT ========== */
+h1{
+    text-align: center;
+    margin-bottom: 3%;
 }
