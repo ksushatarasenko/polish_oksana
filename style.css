@@ -103,6 +103,10 @@ h2{
     text-align: center;
     margin: 3%;
 }
+.p{
+    font-size: 28px;
+    margin-top: 3%;
+}
 
 /* ========== MAIN  */
 .video{
@@ -140,10 +144,23 @@ h2{
     width: 100%;
 }
 .audioSpan{
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
 }
 .audios{
     display: flex;
     justify-content: space-around;
+}
+.audios iframe{
+    width: 240px;
+    height: 45px;
+}
+/* ========= */
+.otvet a{
+ font-size: 28px;
+
+}
+.otvet{
+    text-align: center;
+    padding-bottom: 200px;
 }
