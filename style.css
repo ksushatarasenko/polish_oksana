@@ -111,7 +111,7 @@ h2{
 /* ========== MAIN  */
 .video{
     width: 90em;
-    height: 70%;
+    height: 90%;
     margin: 0 auto;
     padding: 10px;
     /* border: 2px solid red; */
@@ -164,4 +164,14 @@ h2{
 .otvet{
     text-align: center;
     padding-bottom: 200px;
+}
+/* CHECKBOX */
+input{
+    width: 20px;
+    margin-left: 500%;
+}
+.lesson{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin-left: 0;
 }
