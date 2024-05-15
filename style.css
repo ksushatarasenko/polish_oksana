@@ -108,6 +108,13 @@ h2{
     margin-top: 3%;
 }
 
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+
 /* ========== MAIN  */
 .video{
     width: 90em;
@@ -174,4 +181,22 @@ input{
     display: grid;
     grid-template-columns: 95% 5%;
     margin-left: 0;
+}
+/* TWO */
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% auto;
+}
+/* IMAGE */
+.image{
+    text-align: center;
+}
+/* UL > LI */
+ul>li{
+    font-size: 24px;
+    margin-left: 5%;
+}
+hr{
+    border: 1px solid darkgoldenrod;
 }
