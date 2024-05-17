@@ -103,6 +103,10 @@ h2{
     text-align: center;
     margin: 3%;
 }
+h3{
+    font-size: 28px;
+    text-align: center;
+}
 .p{
     font-size: 28px;
     margin-top: 3%;
@@ -117,7 +121,9 @@ h2{
 .green{
     color: rgb(213, 7, 155);
 }
-
+ a{
+    font-size: 28px;
+ }
 /* ========== MAIN  */
 .video{
     width: 90em;
@@ -194,6 +200,9 @@ input{
 /* IMAGE */
 .image{
     text-align: center;
+}
+.image img{
+    max-width: 100%;
 }
 /* UL > LI */
 ul>li{
