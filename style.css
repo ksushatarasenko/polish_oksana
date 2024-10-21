@@ -17,6 +17,7 @@ body{
     width: 80%;
     height: 100vh;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .list{
     max-width: 60%;
@@ -129,8 +130,8 @@ h3{
  }
 /* ========== MAIN  */
 .video{
-    width: 90em;
-    height: 90%;
+    width: 80%;
+    height: 28em;
     margin: 0 auto;
     padding: 10px;
     /* border: 2px solid red; */
@@ -140,6 +141,15 @@ h3{
 .konspekt iframe{
     width: 100%;
     height: 100%;
+}
+
+.fixed-video {
+    position: fixed;
+    top: 10px; /* отступ сверху */
+    left: 10px; /* отступ справа */
+    width: 560px;
+    height: 315px;
+    z-index: 1000; /* чтобы видео было поверх других элементов */
 }
 
 /* ------------------ */
@@ -203,6 +213,7 @@ input{
 /* IMAGE */
 .image{
     text-align: center;
+    margin: 2% auto;
 }
 .image img{
     max-width: 100%;
@@ -224,8 +235,16 @@ th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 th {
     background-color: #f2f2f2;
+}
+/* BLOCK */
+.block{
+    width: 450px;
+    border: 2px solid rgb(70, 67, 67);
+    text-align: center;
+    padding: 2%;
+    margin: 3% auto;
 }

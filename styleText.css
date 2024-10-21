@@ -1,0 +1,63 @@
+/* ====== TEXT ========== */
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+    color: rgb(115, 76, 5);
+    text-align: center;
+    margin: 3%;
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2%;
+}
+h4{
+    font-size: 24px;
+    color: brown;
+    margin: 2% auto;
+    text-align: center;
+}
+h5{
+    font-size: 22px;
+    color: rgb(165, 42, 140);
+    margin: 2% auto;
+    text-align: center;
+}
+.p{
+    font-size: 28px;
+    margin-top: 3%;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(213, 7, 155);
+}
+ a{
+    font-size: 28px;
+ }
+ ol{
+    font-size: 26px;
+ }
+
+.p20{
+    font-size: 20px;
+}
+.p22{
+    font-size: 22px;
+    text-indent: 30px;
+    margin: 1% auto 2%;
+}
+.p24{
+    font-size: 24px;
+    text-indent: 30px;
+    margin: 1%;
+}
