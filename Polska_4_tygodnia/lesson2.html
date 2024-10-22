@@ -6,7 +6,7 @@
     <title>Lekcja 2</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../styleText.css">
-
+    <link rel="stylesheet" href="../styleInteraktiv.css">
 </head>
 <body>
     <div class="wrapper">
@@ -253,42 +253,212 @@
             <p class="p">У польській мові є ще одна форма звертання. Назвемо її змішаною, оскільки вона має певний відтінок фамільярності, залишаючись при цьому достатньо офіційною. Це поєднання слів pan/pani з іменами, часто зменшено-пестливими формами, напр.: Pani Marysiu! Pani Jadziu! Panie Tomku! Panie Jurku! Власні імена при цьому вживаються у формі кличного відмінка. Така форма звертання свідчить про менш офіційні, сердечніші стосунки між співрозмовниками.</p>
             <!-- ВПРАВИ -->
             <h2 class="blue">ВПРАВИ</h2>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126234&authkey=%21AG3YP1uIVMxu2-s&width=1337&height=498" alt="">
+            <div class="blockZadanie">
+                <h4>1. Доповніть речення, уживаючи відповідної форми дієслова <b class="blue">być</b>.</h4>
+                <div class="question-set" id="set1">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. (Ja) <input type="text"
+                                    data-answer="jestem" class="line_2"> Polką.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. To <input type="text"
+                                    data-answer="jest" class="line_2"> pani Katarzyna Nowak, a to pani Monika Augustyn. -Miło mi.</p> 
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. - Czy to (ty) <input type="text"
+                                    data-answer="jesteś" class="line_2"> Michał Adamski? - Tak, to ja.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. - Czy to (wy) <input type="text"
+                                    data-answer="jesteście" class="line_2"> Patrycja i Tomek> - Tak, to my.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set1')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. jestem. <br>2. jest. <br>3. jesteś. <br>4. jesteście.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126235&authkey=%21AHLnhq97Tc9kwAo&width=1337&height=498" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126236&authkey=%21ABb3G4d-cfBi4bY&width=926&height=683" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126243&authkey=%21AN7XjJjCHikw6sU&width=894&height=577" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126238&authkey=%21ADOYoHigz9D7s3w&width=891&height=336" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126239&authkey=%21AJQfrmrepsjpwqk&width=891&height=381" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126240&authkey=%21ALwakvpm2kWY-2U&width=891&height=399" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126241&authkey=%21AAmsrblewuyWW4k&width=891&height=399" alt="">
-            </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126242&authkey=%21AGDNcoqmjLIilgo&width=891&height=288" alt="">
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h4>2. Доповніть речення, уживаючи відповідної форми дієслова <b class="blue">mówić</b>.</h4>
+                <div class="question-set" id="set2">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. Czy (ty) <input type="text"
+                                    data-answer="mówisz" class="line_2"> po angielsku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. Tak, (ja) <input type="text"
+                                    data-answer="mówię" class="line_2"> angielsku.</p> 
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. Czy Piotr <input type="text"
+                                    data-answer="mówi" class="line_2"> po francusku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. Ola i Kasia <input type="text"
+                                    data-answer="mówią" class="line_2"> po rosyjsku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">5. (My) <input type="text"
+                                    data-answer="mówimy" class="line_2"> po hiszpańsku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">6. Czy (wy) <input type="text"
+                                    data-answer="mówicie" class="line_2"> po japońsku?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set2')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. mówisz. <br>2. mówię. <br>3. mówi. <br>4. mówią. <br>5. mówimy. <br>6. mówicie.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <h2 class="blue">КЛЮЧ ДО ВПРАВ</h2>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126245&authkey=%21ABUZaxdKO77U6Z0&width=793&height=504" alt=""><br>
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126246&authkey=%21AEEb-432Ek-lJiI&width=774&height=106" alt="">
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>3. Поставте іменники в дужках у форму орудного відмінка: <br>
+                    <b>Agata jest (Polka) Agata jest Polką.</b></h4>
+                <div class="question-set" id="set3">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. Beatrice jest (Francuzka) <input type="text"
+                                    data-answer="Francuzką" class="line_2"> , a Alice jest (Amerykanka) <input type="text"
+                                    data-answer="Amerykanką" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. (Ja) jestem (Polak) <input type="text"
+                                    data-answer="Polakiem" class="line_2">, Maria jest (Polka) <input type="text"
+                                    data-answer="Polką" class="line_2">.</p> 
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. – Czy John Brown jest (Anglik) <input type="text"
+                                    data-answer="Anglikiem" class="line_2">? – Tak, John jest (Anglik) <input type="text"
+                                    data-answer="Anglikiem" class="line_2"> i Elizabeth jest (Angielką) <input type="text"
+                                    data-answer="Anglieką" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4.  – Czy (ty) jesteś (Niemiec) <input type="text"
+                                    data-answer="Niemcem" class="line_2">? – Tak, jestem <input type="text"
+                                    data-answer="Niemcem" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">5. Mychajło jest (Ukrainiec) <input type="text"
+                                    data-answer="Ukraińcem" class="line_2">, Natalia jest (Ukrainka) <input type="text"
+                                    data-answer="Ukrainką" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">6. Wang jest (Chińczyk) <input type="text"
+                                    data-answer="Chińczykiem" class="line_2">, a Hidetoshi jest (Japończyk) <input type="text"
+                                    data-answer="Japończykiem" class="line_2">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set3')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. Francuzką, Amerykanką. <br>2. Polakiem, Polką. <br>3. Anglikiem, Angli­
+                                kiem, Angielką. <br>4. Niemcem, Niemcem. <br>5. Ukraińcem, Ukrainką.
+                                <br>6. Chińczykiem, Japończykiem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>4. Доповніть речення особовими займенниками, напр.: <br> <span class="blue">To jest Piotr. On jest Polakiem.</span> 
+                </h4>
+                <div class="question-set" id="set4">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. Marcin jest Polakiem. <input type="text"
+                                    data-answer="On" class="line_2"> mówi po polsku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. Constance jest Francuzką. <input type="text"
+                                    data-answer="Ona" class="line_2"> mówi po francusku.</p> 
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. To jest Beata i Monika. <input type="text"
+                                    data-answer="One" class="line_2"> mówią po włosku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. To jest Darek i Czarek. <input type="text"
+                                    data-answer="Oni" class="line_2"> mówią po angielsku.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">5. – Czy to <input type="text"
+                                    data-answer="ty" class="line_2"> jesteś Paweł? – Tak, to <input type="text"
+                                    data-answer="ja" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">6. – Czy to <input type="text"
+                                    data-answer="wy" class="line_2"> jesteście Marta i Agata? – Tak, to <input type="text"
+                                    data-answer="my" class="line_2">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set4')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. on. <br>2. ona. <br>3. one. <br>4. oni. <br>5. ty, ja. <br>6. wy, my.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- 5 -->
+             <div class="blockZadanie">
+                <h4>5. Доповніть речення відповідною конструкцією, напр.: <br><b class="blue">po hiszpań­sku</b>.</h4>
+                <div class="question-set" id="set5">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. Język polski nie jest łatwy, ale Alice mówi  <input type="text"
+                                    data-answer="po polsku" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. Język francuski jest bardzo ładny. Czy (ty) mówisz <input type="text"
+                                    data-answer="po francusku" class="line_2">.</p> 
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. Język angielski nie jest trudny. Czy pan mówi <input type="text"
+                                    data-answer="po angielsku" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. Język niemiecki jest łatwy. Czy pani mówi  <input type="text"
+                                    data-answer="po niemiecku" class="line_2">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. po polsku. <br>2. po francusku. <br>3. po angielsku. <br>4. po niemiecku.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="video"><iframe src="https://www.youtube.com/embed/NKquikwTnEE?si=ybytkeKSYJKUwFwq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </main>
     </div>
     <script src="./script.js"></script>
+    <script src="./scipt4Tygodnia.js"></script>
 </body>
 </html>
