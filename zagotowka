@@ -1,0 +1,27 @@
+<div class="question-set" id="set3">
+    <div class="dialog italic ">
+        <div class="colors">
+            <p class="p20" style="width: 100%;">1. To jest dobry, ale <input type="text"
+                data-answer="Co to jest?" class="line_2"> album.</p>
+        </div>
+        <div class="colors">
+            <p class="p20" style="width: 100%;">2. To jest drogi, ale <input type="text"
+                data-answer="Kto to jest?" class="line_2"> telefon.</p>
+        </div>
+        <div class="colors">
+            <p class="p20" style="width: 100%;">3. To jest tani, ale <input type="text"
+                data-answer="Kto to jest?" class="line_2"> pub.</p>
+        </div>
+    </div>
+</div>
+<div class="flex">
+    <button onclick="checkAnswers('set3')">Sprawdź</button>
+    <div class="hint2-container" onclick="toggleHint2(this)">
+        <div class="hint2-header"></div>
+        <div class="hint2-content">
+            Число ділиться на 5, якщо воно закінчується на 0 або 5.
+        </div>
+    </div>
+</div>
+
+

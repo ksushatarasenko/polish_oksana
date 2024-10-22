@@ -28,8 +28,12 @@ h5{
     text-align: center;
 }
 .p{
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 3%;
+    width: 100%;
+}
+p{
+    margin-top: 2px;
 }
 
 .blue{

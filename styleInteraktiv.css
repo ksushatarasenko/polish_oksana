@@ -1,0 +1,161 @@
+
+/* -------------- POKAZ OTWETA OPTIMA -------------*/
+.hint2-container {
+    background-color: #d9e7f2;
+    border-radius: 10px;
+    border: 1px solid #79abde;
+    padding: 5px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ /* Заголовок блока */
+ .hint2-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    color: #2d2d2d;
+ }
+ 
+ /* Левый значок (иконка) через ::before */
+ .hint2-header::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url('./image/shapka.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+ }
+ 
+ /* Стрелка справа через ::after */
+ .hint2-header::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('./image/strelkaVerch.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(0deg);
+ }
+ 
+ /* Контент с текстом */
+ .hint2-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0 2px 0 2px;
+    opacity: 0; /* Для плавного появления и исчезновения текста */
+    transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
+ }
+ .hint2-content p{
+    font-size: 18px;
+ }
+ 
+ /* Раскрытие блока */
+ .hint2-container.active .hint2-content {
+    padding: 0 2px 5px 2px;
+    max-height: 1000px; /* Достаточно для раскрытия текста */
+    opacity: 1; /* Плавное появление */
+    
+    max-width: 100%;
+ }
+ 
+ /* Плавное скрытие иконки при активации */
+ .hint2-container.active .hint2-header::before {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+ }
+ 
+ /* Поворот стрелки при активации */
+ .hint2-container.active .hint2-header::after {
+    transform: rotate(180deg);
+ }
+ 
+ /* ---------- END POKAZ OTWETA OPTIMA ------------------ */
+
+ .correct {
+    background-color: green;
+    color: white;
+ }
+ 
+ .incorrect {
+    background-color: red;
+    color: white;
+ }
+ button{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    font-size: 18px;
+    margin: 3% 3%;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    transition: transform 1.5s ease;
+ }
+ button:hover{
+    transform: scale(1.2);
+ }
+ .dialog{
+    width: 100%;
+ }
+
+ .line_2{
+    width: 150px;
+    font-size: 16px;
+ }
+ .line_3{
+    width: 250px;
+    font-size: 16px;
+ }
+ .question{
+    width: 100%;
+    font-size: 20px;
+ }
+ .question-set{
+    width: 100%;
+    margin: 0 auto;
+ }
+ label{
+    margin-right: 2%;
+ }
+ input {
+    font-size: 20px;
+    /* Увеличенный размер шрифта */
+    width: 40px;
+    /* Ширина поля ввода */
+    text-align: center;
+    /* Текст по центру */
+ }
+ .colors{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    margin-top: 3px;
+    align-items: flex-end;
+ }
+ .blockZadanie{
+    border: 1px solid gray;
+    padding: 1%;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* небольшая тень */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* плавные переходы */
+    border-top: 2px solid coral;
+ }
+ .blockZadanie:hover {
+    transform: scale(1.05); /* увеличение на 5% при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* усиление тени при наведении */
+ }
+ 
