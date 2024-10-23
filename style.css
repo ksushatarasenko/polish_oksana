@@ -249,3 +249,9 @@ th {
     padding: 2%;
     margin: 3% auto;
 }
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
