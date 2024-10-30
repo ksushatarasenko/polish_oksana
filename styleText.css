@@ -72,3 +72,6 @@ p{
     text-indent: 30px;
     margin: 1%;
 }
+.italic{
+    font-style: italic;
+}

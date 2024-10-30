@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lekcja 4</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styleText.css">
+    <link rel="stylesheet" href="../styleInteraktiv.css">
 </head>
 
 <body>
@@ -28,7 +30,7 @@
                 tam <br>·To nic pilnego – заперечні займенники nic, nikt <br>·Gdzie jest...? – Де знаходиться...?
             </p>
 
-            <div class="fixed-video">
+            <div class="video">
                 <iframe width="560" height="315"
                     src="https://www.youtube.com/embed/tsbnyFwMRpM?si=xjEfashUye3nwqa1&amp;start=52"
                     title="YouTube video player" frameborder="0"
@@ -238,60 +240,229 @@
                 називного відмінка <b>(sok, piwo)</b>.
             </p>
             <!-- ВПРАВИ -->
-            <h2 class="blue">ВПРАВИ</h2>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126282&authkey=%21AAgIl5zPqPiXwWE&width=893&height=626"
-                    alt="11">
+           
+            <h2 class="blue">ВПРАВИ ПИСЬМОВО</h2>
+            <!-- 1 -->
+            <div class="blockZadanie">
+                <h4>1. Напишіть у відповідній формі дієслова <b class="italic blue">mieszkać</b> i <b class="italic blue">robić</b>.</h4>
+                <div class="question-set" id="set1">
+                    <div class="dialog italic two">
+                        <div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">1. (Ja) <input type="text"
+                                        data-answer="mieszkam" class="line_2"> tutaj, a mój chłopak <input type="text"
+                                        data-answer="mieszka" class="line_2"> tam.</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">2.  Gdzie ty <input type="text"
+                                    data-answer="mieszkasz" class="line_2">?</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">3. Ja i moja dziewczyna <input type="text"
+                                    data-answer="mieszkamy" class="line_2"> tu na rogu. A gdzie państwo <input type="text"
+                                    data-answer="mieszkają" class="line_2">?</p>
+                            </div>
+                            <div><p class="p20">– O tam.</p></div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">4. Gdzie (wy) <input type="text"
+                                    data-answer="mieszkacie" class="line_2">?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">5. – Co (ty) <input type="text"
+                                        data-answer="robisz" class="line_2">? – (Ja) nic nie <input type="text"
+                                        data-answer="robię" class="line_2">.</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">6. – A Jacek? Co on  <input type="text"
+                                    data-answer="robi" class="line_2">? – (On) ma spotkanie.</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">7. – A wy? Co (wy) <input type="text"
+                                    data-answer="robicie" class="line_2"> ? – (My) nic nie <input type="text"
+                                    data-answer="robimy" class="line_2">?</p>
+                                    
+                            </div>
+                            <div class="colors">
+                                <p class="p20" style="width: 100%;">8. – A one? Co one <input type="text"
+                                    data-answer="robią" class="line_2"> ? – (One) mają spotkanie.</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">
+                                    9. – Co państwo <input type="text"
+                                    data-answer="robią" class="line_2"> w Warszawie?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set1')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. mieszkam, mieszka. <br>2. mieszkasz. <br>3. mieszkamy, mieszkają. <br>4. mieszkacie. <br>5. robisz, robię. <br>6. robi. <br>7. robicie, robimy. <br>8. robią. <br>9. robią.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126283&authkey=%21AEjTg7MJx-jLUS8&width=893&height=377"
-                    alt="12">
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h4>2. Запишіть у відповідній формі дієслово <b class="italic blue">wiedzieć</b>.</h4>
+                <div class="question-set" id="set2">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. Czy pan  <input type="text"
+                                    data-answer="wie" class="line_2">, gdzie jest ulica Miła?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. Czy (ty) <input type="text"
+                                data-answer="wiesz" class="line_2">, gdzie jest poczta?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. (Ja) nie  <input type="text"
+                                data-answer="wiem" class="line_2">, gdzie jest poczta.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. Czy (wy) <input type="text"
+                                data-answer="wiecie" class="line_2">, co to jest?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">5. Czy państwo <input type="text"
+                                data-answer="wiedzą" class="line_2">, gdzie jest szkoła?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">6. Nie, (my) nie <input type="text"
+                                data-answer="wiemy" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">7. Czy Ania i Beata  <input type="text"
+                                data-answer="wiedzą" class="line_2">, co to jest? Tak, one <input type="text"
+                                data-answer="wiedzą" class="line_2">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set2')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. wie. <br>2. wiesz. <br>3. wiem. <br>4. wiecie. <br>5. wiedzą. <br>6. wiemy. <br>7. wiedzą, wiedzą.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126284&authkey=%21ABDLhh8XEaOC6Ak&width=893&height=339"
-                    alt="13">
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>3. Доповніть запитання і прочитайте відповіді.</h4>
+                <div class="question-set" id="set3">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. – Przepraszam, <input type="text"
+                                    data-answer="gdzie" class="line_2"> jest bank? – Prosto i w prawo.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. – Przepraszam, <input type="text"
+                                    data-answer="gdzie" class="line_2"> jest szpital? – W lewo i prosto.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. – Przepraszam, <input type="text"
+                                    data-answer="gdzie" class="line_2"> jest stacja benzynowa? – Proszę iść
+                                    prosto i w prawo.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. – Przepraszam, <input type="text"
+                                    data-answer="gdzie" class="line_2"> jest dworzec kolejowy? – Proszę iść cały
+                                    czas prosto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set3')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. gdzie. <br>2. gdzie. <br>3. gdzie. <br>4. gdzie.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126285&authkey=%21ALDom2C3ZBzzHs8&width=893&height=248"
-                    alt="14">
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>4. Дайте відповіді на запитання, напр.: <b class="blue">Proszę iść prosto,  </b> і т. п.</h4>
+                <div class="question-set" id="set4">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. – Gdzie jest plac Bankowy? – .............</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. – Gdzie jest szpital? – .............</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. – Gdzie jest ulica Miła? – .............</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. – Gdzie jest dworzec? – .............</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set4')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p> Скористайтеся лексикою уроку.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126286&authkey=%21AA5B8kIl60OZBWA&width=893&height=292"
-                    alt="15">
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>5. Що треба сказати, якщо:</h4>
+                <div class="question-set" id="set5">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">1. chcesz zaproponować komuś kawę? </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">2. odpowiadasz na „dziękuję”?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">3. zatrzymujesz kogoś na ulicy i pytasz, gdzie jest bank/poczta/ulica Miodowa?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20" style="width: 100%;">4. potrącisz kogoś na ulicy?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p>1. Czy masz/ma pan/ma pani ochotę na kawę? <br>2. Nie ma za co/pro­ szę. <br>3. Przepraszam, gdzie jest bank? Poczta? <br>4. Przepraszam.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/_HoyvFujQU0?si=PsdHkn8HFh6WMMAL" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--  -->
+            <div class="blockZadanie">
+                <h4>Польська гостинність</h4>
+                <p class="p24 italic" style="line-height: 1.5;">
+                    Запрошуючи Ярину до кав’ярні, Вальдек в кінці діалогу вимовляє слова: zapraszam cię. Такі слова, окрім запрошення провести разом час, вказують, що Вальдек прийняв рішення заплатити рахунок. Звісно, можна відразу домовитися, що кожен заплатить за себе. Але у Польщі прийнято, що добре вихований чоловік заплатить за свою даму, якщо він її запросив.</p>
+                <p class="p24 italic">
+                    Залежно від того, наскільки близько ми з кимсь знайомі, можна очі- кувати різних запрошень: на каву до кав’ярні, до ресторану або до себе додому, де можна разом пообідати чи повечеряти, а потім від- почити за дружньою розмовою, попиваючи каву з келишком конья- ку. Переважно й гості не приходять з порожніми руками. Прийнято приносити солодощі, пляшку вина, невеликі подарунки господарям. А господині дому неодмінно дарують квіти.
+                </p>
             </div>
-            <!-- Польська гостинність -->
-            <h2 class="blue">Польська гостинність</h2>
-            <p class="p">Запрошуючи Ярину до кав’ярні, Вальдек в кінці діалогу вимовляє слова: zapraszam cię. Такі
-                слова, окрім запрошення провести разом час, вказують, що Вальдек прийняв рішення заплатити рахунок.
-                Звісно, можна відразу домовитися, що кожен заплатить за себе. Але у Польщі прийнято, що добре вихований
-                чоловік заплатить за свою даму, якщо він її запросив.</p>
-            <p class="p">Залежно від того, наскільки близько ми з кимсь знайомі, можна очі- кувати різних запрошень: на
-                каву до кав’ярні, до ресторану або до себе додому, де можна разом пообідати чи повечеряти, а потім від-
-                почити за дружньою розмовою, попиваючи каву з келишком конья- ку. Переважно й гості не приходять з
-                порожніми руками. Прийнято приносити солодощі, пляшку вина, невеликі подарунки господарям. А господині
-                дому неодмінно дарують квіти.</p>
-
-            <h2 class="blue">КЛЮЧ ДО ВПРАВ</h2>
-
-            <div class="image">
-                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126287&authkey=%21AJsyn7ZnCd-z-zM&width=798&height=360"
-                    alt="otwet"><br>
-            </div>
-            <div class="video">
-                <iframe src="https://quizlet.com/916882327/match/embed?i=4wzil5&x=1jj1" height="500" width="100%"
-                    style="border:0"></iframe>
-            </div>
-            <iframe src="https://quizlet.com/pl/916882327/lekcja-4-flash-cards/?i=4wzil5&x=1jqt"
-                frameborder="0"></iframe>
+            <!--  -->
+            
+            
+          
         </main>
     </div>
     <script src="./script.js"></script>
+    <script src="./scipt4Tygodnia.js"></script>
 </body>
 
 </html>
