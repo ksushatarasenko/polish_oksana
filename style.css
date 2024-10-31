@@ -19,6 +19,9 @@ body{
     margin: 0 auto;
     margin-bottom: 30px;
 }
+footer{
+    height: 100px;
+}
 .list{
     max-width: 60%;
     margin:0 auto;
