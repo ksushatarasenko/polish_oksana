@@ -39,6 +39,10 @@ p{
  .p38{
     font-size: 38px;
  }
+
+ .bold{
+    font-weight: bold;
+ }
 .kazka{
     text-indent: 50px;
     font-size: 20px;
